@@ -3,10 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Packy</title>
+
+  <!-- Primary meta / SEO -->
+  <title>Packy Fahey</title>
+  <meta name="description" content="Packy Fahey builds brands that have meaningful impact — founder of Homevly and NameVaultX." />
+  <meta name="author" content="Packy Fahey" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0d2619" />
+  <link rel="canonical" href="https://packyfahey.com/" />
+
+  <!-- Favicon (color tile) -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/favicon.svg" />
+
+  <!-- Open Graph (Facebook / LinkedIn / iMessage) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Packy Fahey" />
+  <meta property="og:title" content="Packy Fahey" />
+  <meta property="og:description" content="Building brands that have meaningful impact." />
+  <meta property="og:url" content="https://packyfahey.com/" />
+  <meta property="og:image" content="https://packyfahey.com/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter / X card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@faheypacky" />
+  <meta name="twitter:creator" content="@faheypacky" />
+  <meta name="twitter:title" content="Packy Fahey" />
+  <meta name="twitter:description" content="Building brands that have meaningful impact." />
+  <meta name="twitter:image" content="https://packyfahey.com/og-image.png" />
+
+  <!-- Structured data: Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Packy Fahey",
+    "url": "https://packyfahey.com",
+    "description": "Building brands that have meaningful impact.",
+    "sameAs": [
+      "https://x.com/faheypacky",
+      "https://homevly.com",
+      "https://namevaultx.com"
+    ]
+  }
+  </script>
+
+  <!-- Google Analytics (GA4) — Measurement ID: G-XHZNWEMNZ7 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XHZNWEMNZ7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XHZNWEMNZ7');
+  </script>
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+
   <style>
     :root {
       --bg: oklch(22% 0.05 155);
@@ -18,7 +75,6 @@
       --edge: clamp(2rem, 3.6vw, 5rem);
     }
 
-    /* hex fallbacks for browsers without oklch */
     @supports not (color: oklch(0% 0 0)) {
       :root {
         --bg: #0d2619;
